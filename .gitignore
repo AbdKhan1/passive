@@ -1,0 +1,28 @@
+# Go build and binary files
+*.exe
+*.out
+*.test
+/bin/
+/pkg/
+/*.prof
+/vendor/
+ 
+# Go dependency directories
+/Godeps/
+/_vendor/
+/vendor/
+ 
+# Node.js dependencies
+/node_modules/
+ 
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+
+# macOS specific files
+.DS_Store
+
+# Visual Studio Code specific files
+.vscode/
